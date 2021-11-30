@@ -8,12 +8,12 @@ p {
 }
 
 .nav-item:hover {
-    background-color: #00FFFF;
+    background-color:#f2cf7f;
 }
 
 
 hr.custom {
-    border-top: 2px solid #00BBD1;
+    border-top: 3px solid #f2cf7f;
   }
   
 
@@ -46,8 +46,8 @@ hr.custom {
 }
 
 .grid-item:hover{
-  border: 0.5rem solid #0dcaf0;
-  background-color: #0dcaf0;
+  border: 0.5rem solid #f2cf7f;
+  background-color: #f2cf7f;
 }
 .grid-item:hover .title{
   color:var(--white)

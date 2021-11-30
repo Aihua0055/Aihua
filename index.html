@@ -20,11 +20,11 @@
 
 
     <body >
-        <main class = "class="container"">
-        <header>
-            <nav class="navbar fixed-top navbar-expand-lg navbar-light custom-navbar ">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Aihua Chen</a>
+        <main class="container pt-5">
+        <header class = "mb-5">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light  custom-navbar ">
+                <div class="container-fluid ">
+                    <a class="navbar-brand h1" href="#"> &nbsp;&nbsp;Aihua Chen</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -88,19 +88,15 @@
             </nav>
         </header>
 
-        <section id="me" class="mt-5">
-            <div class="row mt-5 pt-5 text-center">
-                <div class = "col-12 h-25">
-                <img src="images/Aihua.PNG" class="mx-auto w-25 h-25" alt="Aihua Chen profile image">
+        <section id="me" >
+
+            <div class="row pt-5">
+                <div class="col-3">
+                    <img src="images/Aihua.PNG" class = "w-75 mx-auto d-block"  alt="Aihua Chen profile image">
+
                 </div>
-            </div>
-            <div class="row  ">
-                <div class="col-md-2 col-lg-3">
-                    <h4>About Me</h4>
-                </div>
-                <div class="w-100"></div>
-                <div class="col-md-10 col-lg-9 ">
-                    <p>Hi, I'm Aihua Chen. Born and raised in China, moved to the U.S. in 2013. </p>
+                <div class="col-9 my-auto">
+                    <p>Hi, I'm Aihua Chen. Born and raised in China, I earned my Bachelor's Degree of Engineering from Jilin University and Master of Applied Mathematics Degree from Beijing University of Posts and Telecommunications.Moved to the U.S. in 2013. </p>
                     <p>Driven by building user friendly,accessible AI services, I back to school on March 2020
                         pursuing a Master's Degree of Computer Science in AI track.I enjoy taking web, algorithm,
                         machine learning and natural language processing classes.To challenge myself,I will explore
@@ -121,10 +117,9 @@
                     <h4>Experience</h4>
                 </div>
                 <div class="col-9">
-                    <p>In China, I earned my Bachelor's Degree of Engineering from Jilin University and Master of
-                        Applied Mathematics Degree from Beijing University of Posts and Telecommunications.I was an
+                    <p>In China, I was an
                         intern of software engineer, worked as a product designer in industry.</p>
-                    <p>In the U.S., my first job was a research-based mooc developer. I run production-level Open
+                    <p>In the U.S., I worked as a research-based mooc developer. I run production-level Open
                         Edx and Discourse instances. Collected, analyzed learners behavior data, initiated
                         data-driven predictive action items for educational interventions and improving students
                         engagement. I also assisted in course content creation and course management.</p>
@@ -148,12 +143,12 @@
 
                     <h5>Web development Projects</h5>
                     <p>My World in Data: <a aria-label="Github My World in Data Repo" target="_blank"
-                            href="https://github.com/Aihua0055/World"><i class="bi bi-github "></i> </a></p>
+                            href="https://github.com/Aihua0055/World" class = "link-warning fs-4"><i class="bi bi-github "></i> </a></p>
                     <p>Color Harmonization: <a aria-label="Github Color Harmonization Repo" target="_blank"
-                            href="https://github.com/Aihua0055/computationalartstudio"><i class="bi bi-github"></i> </a>
+                            href="https://github.com/Aihua0055/computationalartstudio" class = "link-warning fs-4"><i class="bi bi-github"></i> </a>
                     </p>
                     <p>8-D Wellness: <a aria-label="Github 8-D Wellness Repo" target="_blank"
-                            href="https://github.com/Aihua0055/wellness"><i class="bi bi-github"></i> </a></p>
+                            href="https://github.com/Aihua0055/wellness" class = "link-warning fs-4"><i class="bi bi-github"></i> </a></p>
                     <h5>Machine Learning Projects</h5>
                     <p>To clean up code.</p>
 
@@ -210,8 +205,8 @@
                     <h4>Read</h4>
                 </div>
                 <div class="col-9">
-                    <p>See you on Goodreads</p>
-                    <a aria-label="Goodreads" target="_blank"
+                    <h5>See you on Goodreads</h5>
+                    <a aria-label="Goodreads" target="_blank" class = "link-warning fs-4"
                         href="https://www.goodreads.com/user/show/118679606-aihua"><i class="bi bi-book"></i></a>
 
                 </div>
@@ -225,24 +220,24 @@
 
                 </div>
                 <div class="col-9">
-                    <h5>Contact to have a non-alcoholic drink together.</h5>
+                    <h5>Contact to know my funniest facts.</h5>
                     <form>
                         <div class="form-group">
-                            <label for="exampleFormControlInput1">Your Name</label>
-                            <input type="text" class="form-control" id="exampleFormControlInput1">
+                            <label for="name">Your Name</label>
+                            <input type="text" class="form-control" id="name">
                         </div>
                         <div class="form-group mt-3">
-                            <label for="exampleFormControlInput1">Your Email</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                            <label for="email">Your Email</label>
+                            <input type="email" class="form-control" id="email"
                                 placeholder="name@example.com">
                         </div>
                         <div class="form-group mt-3">
-                            <label for="exampleFormControlTextarea1">Let's have a drink together: which is your favorite
+                            <label for="comments">Let's have a drink together: which is your favorite
                                 non-alcoholic drink? Where do you recommend?</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <textarea class="form-control" id="comments" rows="3"></textarea>
                         </div>
                         <div class="mt-5 text-center">
-                            <input type="button" name="submit" id="submit" value="Submit" class="btn btn-info" />
+                            <input type="button" name="submit" id="submit" value="Submit" class="btn btn-warning" />
                             <input type="reset" name="reset" id="reset" value="Reset" class="btn btn-secondary" />
                         </div>
                     </form>
@@ -264,11 +259,11 @@
         </div>
         <footer class="navbar justify-content-center  ">
             <div class="fs-2 mb-1">
-                <a class="link-info" aria-label="Linkedin" target="_blank"
+                <a class="link-warning" aria-label="Linkedin" target="_blank"
                     href="https://www.linkedin.com/in/aihua-chen-24326048/"><i class="bi bi-linkedin"></i></a>
-                <a class="link-info" aria-label="Github" target="_blank" href="https://github.com/Aihua0055"><i
+                <a class="link-warning" aria-label="Github" target="_blank" href="https://github.com/Aihua0055"><i
                         class="bi bi-github"></i></a>
-                <a class="link-info" aria-label="Email" target="_blank" href="mailto: aihuacville@gmail.com"> <i
+                <a class="link-warning" aria-label="Email" target="_blank" href="mailto: aihuacville@gmail.com"> <i
                         class="bi bi-envelope"></i></a>
             </div>
 
