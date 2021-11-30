@@ -42,7 +42,7 @@ hr.custom {
 
 .grid-container {
   display: grid;
-  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .grid-item:hover{
@@ -60,6 +60,7 @@ hr.custom {
 
 }
 
+
 .title {
   font-size: medium;
   font-weight: bold;
@@ -67,6 +68,37 @@ hr.custom {
   color: black;
 }
 
+@media (max-width: 1399.98px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+}
+@media (max-width: 1199.98px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+}
+@media (max-width: 991.98px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}
+
+@media (max-width:768px){
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+@media (max-width: 575.98px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+}
 
 
 img {
