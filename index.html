@@ -14,10 +14,11 @@
             crossorigin="anonymous"></script>
 
     </head>
+   
 
-    <body>
+    <body class = "container">
         <header>
-            <nav class="navbar fixed-top navbar-expand-lg navbar-light custom-navbar mb-5">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light custom-navbar ">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">Aihua Chen</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -27,7 +28,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item fs-5">
-                                <a class="nav-link" aria-current="page" href="#me">Me</a>
+                                <a class="nav-link active" aria-current="page" href="#me">Me</a>
                             </li>
                             <li class="nav-item fs-5">
                                 <a class="nav-link" href="#experience">Experience</a>
@@ -41,7 +42,7 @@
                             <li class="nav-item fs-5">
                                 <a class="nav-link" href="#read">Read</a>
                             </li>
-
+    
                             <li class="nav-item fs-5">
                                 <a class="nav-link" href="#fun">Fun</a>
                             </li>
@@ -73,25 +74,28 @@
                                 <a class="nav-link" aria-label="Email" target="_blank"
                                     href="mailto: aihuacville@gmail.com"><i class="bi bi-envelope"></i></a>
                             </li>
-
+    
                         </ul>
-
-
+    
+    
                     </div>
-
+    
                 </div>
             </nav>
         </header>
+            <section id="me" class="mt-5">
 
-        <div class="container mt-1">
+                <div class = "row mt-5 pt-5 text-center">
+                    <img src="images/Aihua.PNG" class="mx-auto w-25 h-25" alt="Aihua Chen profile image">
+                </div>
 
-            <section id="me" class="mb-5">
-                <div class="row mt-5 pt-5">
-                    <div class="col-3"><img src="images/Aihua.PNG"
-                            class="col-md-4 col-sm-12 float-md-start mb-3 ms-md-3" alt="Aihua Chen profile image"></div>
+
+                <div class="row  ">
+                    <div class="col-3">
+                        <h4>About Me</h4>
+                    </div>
                     <div class="col-9 ">
-                        <h4>About me</h4>
-                        <p>Hello, my name is Aihua Chen,born and raised in China, moved to the U.S. in 2013. </p>
+                        <p>Hi, I'm Aihua Chen. Born and raised in China, moved to the U.S. in 2013. </p>
                         <p>Driven by building user friendly,accessible AI services, I back to school on March 2020
                             pursuing a Master's Degree of Computer Science in AI track.I enjoy taking web, algorithm,
                             machine learning and natural language processing classes.To challenge myself,I will explore
@@ -100,7 +104,7 @@
                         <p>When I am free,I read,go to bouldering gym and hiking with my friends.</p>
                     </div>
                 </div>
-                <div class="row pt-5">
+                <div class="row pt-5 pb-5">
                     <img src="images/Aihua_journey.jpg" alt="Aihua Chen journey">
 
                 </div>
@@ -131,14 +135,25 @@
             <section id="projects">
                 <div class="row">
                     <div class="col-3">
-                        <h4>Projects</h4>
+                        <h4>Projects and Skills</h4>
                     </div>
                     <div class="col-9">
-                        <p>Tracks: Web development, Machine Learning</p>
-                        <p>Skills: Python, scikit-learn,numpy,pandas,nltk,html,css,js, Flask</p>
-                        <h5>Color Harmonization</h5>
-                        <h5>Our World in Data</h5>
-                        <h5>NLP</h5>
+                        <h5>Skills</h5>
+                        <p>Python, scikit-learn,numpy,pandas,nltk,html,css,js, Flask</p>
+                        
+
+                        <h5>Web development Projects</h5>
+                        <p>My World in Data:  <a  aria-label="Github My World in Data Repo" target="_blank"
+                            href="https://github.com/Aihua0055/World"><i class="bi bi-github "></i> </a></p> 
+                        <p>Color Harmonization: <a  aria-label="Github Color Harmonization Repo" target="_blank"
+                            href="https://github.com/Aihua0055/computationalartstudio"><i class="bi bi-github"></i> </a></p>
+                        <p>8-D Wellness: <a  aria-label="Github 8-D Wellness Repo" target="_blank"
+                                href="https://github.com/Aihua0055/wellness"><i class="bi bi-github"></i> </a></p>
+                        <h5>Machine Learning Projects</h5>
+                        <p>To clean up code.</p>
+
+                        <h5>NLP Projects</h5>
+                        <p>In progress.</p>
 
                     </div>
                 </div>
@@ -155,7 +170,7 @@
                             not be easier. We are so familiar with the buttons that are bold, attractive such as
                             the“Buy” “Pay now” “One-click checkout” buttons.But, why is it so hard if you want to find a
                             button to cancel a subscription? What is User Interface for? The following are some
-                            cancellation/unscribe steps examples from Udacity, Amazon.com, The Economist, Grammarly.
+                            cancellation/unscribe steps examples from Amazon.com, The Economist, Grammarly.
                         </p>
                         <p>
                             Amazon.com : Almost everyone has experience of return and request a refund on Amazon.com.
@@ -190,7 +205,10 @@
                         <h4>Read</h4>
                     </div>
                     <div class="col-9">
-                        <h5>To add</h5>
+                        <p>See you on Goodreads</p>
+                        <a  aria-label="Goodreads" target="_blank"
+                            href="https://www.goodreads.com/user/show/118679606-aihua"><i
+                                class="bi bi-book"></i></a> 
 
                     </div>
                 </div>
@@ -200,37 +218,27 @@
                 <div class="row">
                     <div class="col-3">
                         <h4>Fun Fact</h4>
+
                     </div>
                     <div class="col-9">
-                        <section id="results" class="text-center grid-container">
-                            <!-- <img
-                      id="loading"
-                      class="mb-5"
-                      src="loader.gif"
-                      alt="gif of a loading element"
-                      width="50px"
-                    /> -->
-                        </section>
+                        <p>Contact me for the funniest facts about me.</p>
+                        
                     </div>
-                </div>
-
+                </div>          
             </section>
-            <hr class="custom">
-
         </div>
 
-        <footer class="navbar justify-content-center fixed-bottom  bg-light mt-5">
-            <div class="fs-2 mb-1">
-                <a class="link-info" aria-label="Linkedin" target="_blank"
-                    href="https://www.linkedin.com/in/aihua-chen-24326048/"><i class="bi bi-linkedin"></i></a>
-                <a class="link-info" aria-label="Github" target="_blank" href="https://github.com/Aihua0055"><i
-                        class="bi bi-github"></i></a>
-                <a class="link-info" aria-label="Email" target="_blank" href="mailto: aihuacville@gmail.com"> <i
-                        class="bi bi-envelope"></i></a>
-            </div>
-
-        </footer>
-
     </body>
+    <footer class="navbar justify-content-center  ">
+        <div class="fs-2 mb-1">
+            <a class="link-info" aria-label="Linkedin" target="_blank"
+                href="https://www.linkedin.com/in/aihua-chen-24326048/"><i class="bi bi-linkedin"></i></a>
+            <a class="link-info" aria-label="Github" target="_blank" href="https://github.com/Aihua0055"><i
+                    class="bi bi-github"></i></a>
+            <a class="link-info" aria-label="Email" target="_blank" href="mailto: aihuacville@gmail.com"> <i
+                    class="bi bi-envelope"></i></a>
+        </div>
+
+    </footer>
 
 </html>
