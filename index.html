@@ -17,7 +17,7 @@
 
     <body>
         <header>
-            <nav class="navbar sticky-top navbar-expand-lg navbar-light custom-navbar">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light custom-navbar mb-5">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">Aihua Chen</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -27,7 +27,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item fs-5">
-                                <a class="nav-link active" aria-current="page" href="#me">Me</a>
+                                <a class="nav-link" aria-current="page" href="#me">Me</a>
                             </li>
                             <li class="nav-item fs-5">
                                 <a class="nav-link" href="#experience">Experience</a>
@@ -83,13 +83,10 @@
             </nav>
         </header>
 
-        <div class="container mb-5">
-            <section id="me" class="mb-5">
-                <div class="row">
-                    <img src="images/Aihua_journey.jpg" alt="Aihua Chen journey">
+        <div class="container mt-1">
 
-                </div>
-                <div class="row mt-5">
+            <section id="me" class="mb-5">
+                <div class="row mt-5 pt-5">
                     <div class="col-3"><img src="images/Aihua.PNG"
                             class="col-md-4 col-sm-12 float-md-start mb-3 ms-md-3" alt="Aihua Chen profile image"></div>
                     <div class="col-9 ">
@@ -100,13 +97,17 @@
                             machine learning and natural language processing classes.To challenge myself,I will explore
                             efficient Machine Learning for NLP in 2022.</p>
                         <p> </p>
-                        <p>When I am free,I read,go for bouldering and hiking with my friends.</p>
+                        <p>When I am free,I read,go to bouldering gym and hiking with my friends.</p>
                     </div>
                 </div>
-                <hr class="custom">
+                <div class="row pt-5">
+                    <img src="images/Aihua_journey.jpg" alt="Aihua Chen journey">
+
+                </div>
+
 
             </section>
-            <section id="experience" class="mt-5">
+            <section id="experience" >
                 <div class="row">
                     <div class="col-3">
                         <h4>Experience</h4>
@@ -218,7 +219,7 @@
 
         </div>
 
-        <footer class="navbar justify-content-center fixed-bottom navbar-light bg-light mt-5">
+        <footer class="navbar justify-content-center fixed-bottom  bg-light mt-5">
             <div class="fs-2 mb-1">
                 <a class="link-info" aria-label="Linkedin" target="_blank"
                     href="https://www.linkedin.com/in/aihua-chen-24326048/"><i class="bi bi-linkedin"></i></a>
@@ -229,6 +230,7 @@
             </div>
 
         </footer>
+
     </body>
 
 </html>
