@@ -25,3 +25,54 @@ hr.custom {
     padding-right: 1em;
   }
 }
+
+#loading {
+  width: 80px;
+  height: 80px;
+}
+
+/* .figure {
+  border: 0.5rem solid var(--white);
+}
+.figure:hover {
+  border: 0.5rem solid var(--purple);
+  background-color: var(--purple);
+  color: var(--white);
+} */
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+}
+
+.grid-item:hover{
+  border: 0.5rem solid #0dcaf0;
+  background-color: #0dcaf0;
+}
+.grid-item:hover .title{
+  color:var(--white)
+}
+
+
+.grid-item {
+  margin:10px 5px;
+  background-color:white;
+
+}
+
+.title {
+  font-size: medium;
+  font-weight: bold;
+  margin: 10px auto;
+  color: black;
+}
+
+
+
+img {
+  width:100%;
+}
+

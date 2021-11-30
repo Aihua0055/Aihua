@@ -12,6 +12,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"></script>
+        <script defer src="javascript/beverages.js"></script>
 
     </head>
    
@@ -221,18 +222,18 @@
 
                     </div>
                     <div class="col-9">
-                        <h5>Contact me for the funniest facts about me.</h5>
+                        <h5>Contact to have a non-alcoholic drink together.</h5>
                         <form>
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Your Name</label>
                                 <input type="text" class="form-control" id="exampleFormControlInput1" >
                               </div>
-                            <div class="form-group">
+                            <div class="form-group mt-3">
                               <label for="exampleFormControlInput1">Your Email</label>
                               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                             </div>
-                            <div class="form-group">
-                              <label for="exampleFormControlTextarea1">Leave me a message:</label>
+                            <div class="form-group mt-3">
+                              <label for="exampleFormControlTextarea1">Let's have a drink together: which is your favorite non-alcoholic drink? Where do you recommend?</label>
                               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
                             <div class = "mt-5 text-center">
@@ -244,19 +245,37 @@
                     </div>
                 </div>          
             </section>
+            <hr class="custom">
+
+
+            <section class="  w-100 mx-auto my-5 p-3">
+                <h4 class="text-center my-5">Which is your favorite non-alcoholic drink?</h4>
+                <section id="results" class="grid-container">
+                  <img
+                    id="loading"
+                    class="mb-5"
+                    src="loader.gif"
+                    alt="gif of a loading element"
+                    width="50px"
+                  />
+        
+                </section>
+              </section>
+
         </div>
+        <footer class="navbar justify-content-center  ">
+            <div class="fs-2 mb-1">
+                <a class="link-info" aria-label="Linkedin" target="_blank"
+                    href="https://www.linkedin.com/in/aihua-chen-24326048/"><i class="bi bi-linkedin"></i></a>
+                <a class="link-info" aria-label="Github" target="_blank" href="https://github.com/Aihua0055"><i
+                        class="bi bi-github"></i></a>
+                <a class="link-info" aria-label="Email" target="_blank" href="mailto: aihuacville@gmail.com"> <i
+                        class="bi bi-envelope"></i></a>
+            </div>
+    
+        </footer>
 
     </body>
-    <footer class="navbar justify-content-center  ">
-        <div class="fs-2 mb-1">
-            <a class="link-info" aria-label="Linkedin" target="_blank"
-                href="https://www.linkedin.com/in/aihua-chen-24326048/"><i class="bi bi-linkedin"></i></a>
-            <a class="link-info" aria-label="Github" target="_blank" href="https://github.com/Aihua0055"><i
-                    class="bi bi-github"></i></a>
-            <a class="link-info" aria-label="Email" target="_blank" href="mailto: aihuacville@gmail.com"> <i
-                    class="bi bi-envelope"></i></a>
-        </div>
 
-    </footer>
 
 </html>
