@@ -15,30 +15,12 @@ p {
 hr.custom {
     border-top: 3px solid #f4aa00;
   }
-  
-
-
-.sm-icons {
-  flex-direction: row;
-}
 
 
 #loading {
   width: 80px;
   height: 80px;
 }
-
-/* .figure {
-  border: 0.5rem solid var(--white);
-}
-.figure:hover {
-  border: 0.5rem solid var(--purple);
-  background-color: var(--purple);
-  color: var(--white);
-} */
-
-
-
 
 .grid-container {
   display: grid;
@@ -67,6 +49,11 @@ hr.custom {
   margin: 10px auto;
   color: black;
 }
+
+img {
+  width:100%;
+}
+
 
 @media (max-width: 1399.98px) {
   .grid-container {
@@ -101,7 +88,4 @@ hr.custom {
 }
 
 
-img {
-  width:100%;
-}
 
